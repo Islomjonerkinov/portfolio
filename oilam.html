@@ -1,53 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="oilam.css">
+    <title>Islomjon | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-    <h1>oilamiz</h1>
-    <ul>
-        <li><a href="projects.html">mening proyektlarim</a></li>
-        <li><a href="support.html">aloqalanish</a></li>
+
+<nav class="navbar">
+    <div class="logo">Islomjon</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#family">Family</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#team">Guruhdoshlarim</a></li>
+        <li><a href="#goals">Maqsadlarim</a></li>
+        <li><a href="#projects">Loyihalarim</a></li>
     </ul>
 </nav>
-<section class="section">
-    <h2>Oilam</h2>
-    <div class="cards">
-        <div class="card">
-            <img src="./dadam.jpg" alt="Ota">
-            <h3>Ota</h3>
-            <p>Oilamiz boshlig‘i</p>
-            <p>Ismi:Zokir</p>
-            <p>yoshi:39da </p>
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="./oyim.jpg" alt="Ona">
-            <h3>Ona</h3>
-            <p>Mehribon ona</p>
-        </div>
-        <div class="card">
-            <img src="./inom.jpg" alt="uka">
-            <h3>ukam</h3>
-            <p>Kichkina ukam</p>
-        </div>
-        <div class="card">
-            <img src="imona.jpg" alt="Opa">
-            <h3>Singlim</h3>
-            <p></p>
-        </div>
-        <div class="card">
-            <img src="./men.jpg" alt="Men">
-            <a href="men.html">men haqimda </a>
-            <h3>Men</h3>
-            <p>Oilamiz a'zosi</p>
+
+<!-- HOME -->
+<section id="home" class="hero full">
+    <div class="container">
+        <h1>Frontend Developer</h1>
+        <p>
+            Men zamonaviy, tezkor va foydalanuvchiga qulay web ilovalar yarataman.
+            UI/UX dizayn, responsiv layout va professional kod yozish mening asosiy yo‘nalishim.
+        </p>
+        <a href="#projects" class="btn">Loyihalarimni Ko‘rish</a>
+    </div>
+</section>
+
+<!-- FAMILY -->
+<section id="family" class="section full dark">
+    <div class="container">
+        <h2>Mening Oilam</h2>
+        <p>
+            Oilam — mening eng katta motivatsiyam. Ular har doim meni qo‘llab-quvvatlaydi.
+            Har bir muvaffaqiyatim ortida ularning duosi va ishonchi bor.
+        </p>
+
+        <div class="grid-2">
+            <div>
+                <h3>Otam</h3>
+                <p>Mehnatsevar va qat’iyatli inson. U menga mas'uliyat va intizomni o‘rgatgan.</p>
+            </div>
+            <div>
+                <h3>Onam</h3>
+                <p>Mehribon va sabrli. Har doim ruhiy tayanchim bo‘lib kelgan.</p>
+            </div>
+            <div>
+                <h3>Ukam</h3>
+                <p>Faol va quvnoq. Oilamizga energiya olib kiradi.</p>
+            </div>
+            <div>
+                <h3>Singlim</h3>
+                <p>Ijodkor va aqlli. Yangi narsalarni o‘rganishga qiziqadi.</p>
+            </div>
         </div>
     </div>
 </section>
+
+<!-- SKILLS -->
+<section id="skills" class="section full">
+    <div class="container">
+        <h2>Skills</h2>
+        <p>
+            Frontend development bo‘yicha quyidagi texnologiyalar bilan ishlayman.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Semantic va SEO friendly markup.</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Responsive design, Flexbox, Grid, Animation.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Dynamic va interactive web ilovalar.</p>
+            </div>
+            <div class="card">
+                <h3>React</h3>
+                <p>Component-based zamonaviy SPA ilovalar.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section id="team" class="section full dark">
+    <div class="container">
+        <h2>Guruhdoshlarim</h2>
+        <p>
+            Men kuchli va maqsadli jamoa bilan ishlayman.
+            Biz birgalikda loyihalar qilamiz, bir-birimizni rivojlantiramiz.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Frontend Team</h3>
+                <p>UI va foydalanuvchi interfeysi ustida ishlaymiz.</p>
+            </div>
+            <div class="card">
+                <h3>Backend Team</h3>
+                <p>Server va ma'lumotlar bazasi bilan ishlaydi.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GOALS -->
+<section id="goals" class="section full">
+    <div class="container">
+        <h2>Maqsadlarim</h2>
+        <p>
+            Kelajakda professional Fullstack Developer bo‘lish.
+            Xalqaro IT kompaniyalarda ishlash va katta loyihalarda qatnashish.
+        </p>
+
+        <ul class="goals-list">
+            <li>🚀 Kuchli Portfolio yaratish</li>
+            <li>🌍 Xalqaro darajaga chiqish</li>
+            <li>💼 Real loyihalarda ishlash</li>
+            <li>📚 Doimiy o‘rganish va rivojlanish</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section full dark">
+    <div class="container">
+        <h2>Loyihalarim</h2>
+        <p>Amaliy va real loyihalarim.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Shaxsiy portfolio saytim.</p>
+            </div>
+            <div class="card">
+                <h3>Landing Page</h3>
+                <p>Zamonaviy biznes landing.</p>
+            </div>
+            <div class="card">
+                <h3>React App</h3>
+                <p>Dynamic web ilova.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Islomjon. Barcha huquqlar himoyalangan.
+</footer>
 
 </body>
 </html>
